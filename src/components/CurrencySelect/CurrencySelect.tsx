@@ -118,7 +118,6 @@ const CurrencySelect = ({ value, onChange }: Props) => {
         placeholder="Поиск валюты"
         className="w-full p-3 border rounded pr-10"
       />
-      {/* Кнопка очистки */}
       {search && (
         <button
           onClick={handleClear}
